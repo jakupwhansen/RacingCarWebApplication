@@ -39,7 +39,7 @@ function Timer() {
     timeCount++;
 
     //----------Genetic Algorithm is Driving the car har--------------
-    GA_DriveCar();
+    GA_DriveCar_One_Time_Step();
 }
 function newGame() {
     document.getElementById('startNewGameButton').style.visibility = 'hidden';    
